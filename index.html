@@ -1,0 +1,316 @@
+<html>
+  <head>
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="navContainer">
+      <div class="primaryNav">
+        <img src="assets/NavLogo.svg" class="logo" />
+
+        <ul class="listContainer">
+          <li class="list">Home</li>
+          <li class="list">TV Shows</li>
+          <li class="list">Movies</li>
+          <li class="list">New & Popular</li>
+          <li class="list">My List</li>
+          <li class="list">Audio & Subtitles</li>
+        </ul>
+      </div>
+
+      <div class="secondaryNav">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 navIcon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 navIcon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+          />
+        </svg>
+
+        <img
+          src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABQnOnMxhb19v9lQZScL86ZpnI21__HC3fseri3xG_4k-rYBafycfVvfsw_SqXVYXJJrelgRPF-eed5E69w1GQ3rq-CxZLW0.png?r=a4b"
+        />
+      </div>
+    </div>
+
+    <div class="heroSection">
+      <div class="infoSection">
+        <div class="series">
+          <img src="assets/HeroLogo.svg" class="heroLogo" />
+          <div class="logoTitle">SERIES</div>
+        </div>
+
+        <div class="title">REBEL CHEER SQUAD</div>
+        <div class="subtitle">A <span>GET EVEN</span> SERIES</div>
+        <div class="info">
+          A trio of cheerleaders at a posh private school revive their former classmates' anti-bullying club and team up to fight injustice in this teen
+          thriller.
+        </div>
+
+        <div class="btnSection">
+          <button class="playBtn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4 2.69127C4 1.93067 4.81547 1.44851 5.48192 1.81506L22.4069 11.1238C23.0977 11.5037 23.0977 12.4963 22.4069 12.8762L5.48192 22.1849C4.81546 22.5515 4 22.0693 4 21.3087V2.69127Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            Play
+          </button>
+
+          <button class="moreInfo">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            More Info
+          </button>
+        </div>
+      </div>
+
+      <div class="fadded"></div>
+    </div>
+
+    <div class="carouselContainer">
+      <div class="carouselTitle">Recently added</div>
+      <div class="carouselCardSection">
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABccsTWe9Xabrw0O8n4Qkmjw9l5F76BbKfQ3ilAEFpgnT2K7SkBRU39Bk0TAkXCAG6cZcHsenfwxxkhbVkMTDDSOa3tLU_MErUitVdnACkbAz6BrIOqFKmWzzj0CGq7dDHW2Z.jpg?r=cdb"
+          />
+        </div>
+
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTme4YrKP_BkbNBgDiB1tT0CrCXPwVdZ1j1HD7J7N17nnfvcPimb_a4UtgcelzlXrE5TolZkKABI1GAkwrb3vU5Jr-HEI8erLeWx6SQoXgm5lBhQZW6mDzkhJa84oxwujhVK.jpg?r=8a4"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABf7K6sNdboZ_8qWzfmJy5-PrhvwUfG_2xf4Pvfb8cPf0hu6mx9AWewED_Ky7-bMLpGWyRud_4BZ3Sp8SkpkeXhQ0MNsSU9mS93A.webp?r=cb0"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2085-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQBp93wOUzROv092Km5_CBm6SvI1JDl6-VoPcmzckccyqZQ3yH9c5G1HQLw4tspgEU849XUxuUwMLB9jFLqh1pxQEfF8L7kZWcC8D7fBzJEuqlfRE9j4Tid1N10mff3mA62G4RxpIJ4Cxee9FbJJF2bNtKZd5A6N6q6Ue2WrX13wLRQn4CfXsv9UuPI_ifA.jpg?r=d60"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYzdfjxBSLiCN801dSV_LsmUT_1VuPLx1bFRVz6ri1HZUfKtTCx5TUkkQUDRZFIZwxdMRYzxjq3H_B_xs1v_r3wGaIQsjAqf-oS6IVXAt_WfW1QmU57iW44wc6w0dXCQjMHC05904Ziki4J_MyIO8f2YhuIe_EaCH-U.webp?r=168"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbFcCtN5D8LLENEeJox-IkM3ef9IM6YX40yzgnFjOq9z2oBSQBCruO0aSPB4-Jdq_Mn5V0AZk6uVSMlj3rCuG0VbvpMoYQdf46ydEZZ1gJHb2lSDbrxMs_WEa_rx1atTkDaV.jpg?r=10d"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXLwHZEYL1tFzQHQbcJXoGYH6EsLuwIR1cvM6hpE0KY83CAYanjUe9IeQbECaPK6eAEATS_EcIR5Zj83sJDtpj19k3FIxcy7smXVi3CU6pNisoX_9wKqbtVxnLWA9xFJwpF4UzuJKmOm8cUNpniiVgI_deR0xc8sitd8Iw.jpg?r=3ad"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="carouselContainer">
+      <div class="carouselTitle">Recently added</div>
+      <div class="carouselCardSection">
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2085-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQF3qvL154dOmaLM3zqYKFF_jq2DGFfcFb9MZYgMOC4bAN6weKcI9kx-gu1RFVzGPlfR-MEKuLhn7souNExdgiHwRgIfNoHdlC4.webp?r=8f8"
+          />
+        </div>
+
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfa-6ZKFQWUoKSgXQUWvHOPBjP96M49x2LYua8P6J06iv3iSvF1fMtuEhLch-frt5Wdt-22GtmMEf6GuSA-C0ziNjrudtqRpBPw.webp?r=221"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQTcN65Igx_-sgmWu6u3Y4oolDXGiK-mnCK7kqefFU0FeaARa8VZgb-SYal5WKm72FTVCS5OuCKRfWDX8Ic3iTgHsBuQDND6fKU.webp?r=670"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2085-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQBp93wOUzROv092Km5_CBm6SvI1JDl6-VoPcmzckccyqZQ3yH9c5G1HQLw4tspgEU849XUxuUwMLB9jFLqh1pxQEfF8L7kZWcC8D7fBzJEuqlfRE9j4Tid1N10mff3mA62G4RxpIJ4Cxee9FbJJF2bNtKZd5A6N6q6Ue2WrX13wLRQn4CfXsv9UuPI_ifA.jpg?r=d60"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUW-ESnhqX6ATdGK5OClt3iY8hcY_6mO2oWUI5hlF0VspVD_cYRAY5KYMwbmKzeGpZv-xBdGaM_VVKu19ugv63n8LmWHZvrPFls.webp?r=d21"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRsatuPWlGYKFAFwqJ7TKoeaqwNqmHxXOZonRdm9RHTuXBTha7OIhFPIEyGAkYpkca40uPPI1hnuSJY4vZMrGz8wNxnWHFvptj4.webp?r=ab5"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXLwHZEYL1tFzQHQbcJXoGYH6EsLuwIR1cvM6hpE0KY83CAYanjUe9IeQbECaPK6eAEATS_EcIR5Zj83sJDtpj19k3FIxcy7smXVi3CU6pNisoX_9wKqbtVxnLWA9xFJwpF4UzuJKmOm8cUNpniiVgI_deR0xc8sitd8Iw.jpg?r=3ad"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="carouselContainer">
+      <div class="carouselTitle">Recently added</div>
+      <div class="carouselCardSection">
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZV7foDYxGgACCSC8iwjCp8dj4J97oOCGXAJliPSLPAPFBPzoGMsjW0OjKiJwISrpF5qtPsPNu6ayBDazmeNdHJaRh9jlRtnvE4.webp?r=18d"
+          />
+        </div>
+
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTsobGLsZoaj5_s0Fps2VW5sIq-pSN3V-FEudETgPmEpAB_fX02ORmb0TH8UV0BcVMnWe6-S8nk34YvZXlO07R_EqcaTHiBk6zU.webp?r=b24"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYdfUlBvwOq8man9L61DWb8MCZjQpnDjL0DzJ3UPkjk8fUTFu7884_zasTq5XoaZFtNatGPPmvGSKm2J499mL5UTyqa-tyPF0iTi2k4YLzm2YR--TyLyKti6u56arPogGRH8.jpg?r=127"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRIsh0QxtPNdgWzSSw4BhFmu4Xznwbul8vuR8LWu_48Ngc0VRMoihOtLlTneZFFGce93AmfZZveT3VXyAgeUGyiPtWJXCRDJzZs5aICk_vA0f-xcZNo06oIQe-iFHaYc6y7X.jpg?r=7c1"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABff4zs2HgOBPUwTwe454YACcGzS2ZbhWeNnkSvbzyHhOWNKN9513anDERXbDCIZdfvLoLpxZqGYakYvaDqajnITK2ljaxgAr7XSz_zMNaFYHigqbwbGSs-6zNU8bg81Kk67o.jpg?r=b30"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABff4zs2HgOBPUwTwe454YACcGzS2ZbhWeNnkSvbzyHhOWNKN9513anDERXbDCIZdfvLoLpxZqGYakYvaDqajnITK2ljaxgAr7XSz_zMNaFYHigqbwbGSs-6zNU8bg81Kk67o.jpg?r=b30"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXLwHZEYL1tFzQHQbcJXoGYH6EsLuwIR1cvM6hpE0KY83CAYanjUe9IeQbECaPK6eAEATS_EcIR5Zj83sJDtpj19k3FIxcy7smXVi3CU6pNisoX_9wKqbtVxnLWA9xFJwpF4UzuJKmOm8cUNpniiVgI_deR0xc8sitd8Iw.jpg?r=3ad"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="carouselContainer">
+      <div class="carouselTitle">Recently added</div>
+      <div class="carouselCardSection">
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQu7PqV9m_-uzVdikrwhpVBcWngLJzG-6u8si3e2LHusMft70ZhCHRLh-fQO6czqObEckdrlVR2UrR8jM5OAkmsqhYdMi_6hU68.webp?r=604"
+          />
+        </div>
+
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABT_ETQKBQJz8or0m69VzjxfwQn1AMFUhJcSiwzQpGpwF5YdGzufhO-_IApxp0Dc3zmjyPvyNgMdPXhyY03YFaDVSuEqpDhXuJVk.webp?r=4a8"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdEVGC2Sq3fIAZ9JoXEMaASdSpKA2ZDpgdWyC6iGGGoaRiY5HGCkld_qUOp7Md_D4DxG9CixZZpnkfEMZQ9jc3tWaJ1HY2FRlfU.webp?r=a6e"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdEVGC2Sq3fIAZ9JoXEMaASdSpKA2ZDpgdWyC6iGGGoaRiY5HGCkld_qUOp7Md_D4DxG9CixZZpnkfEMZQ9jc3tWaJ1HY2FRlfU.webp?r=a6e"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQ4wrckXFS2Bi7WEP4L1FPxgEAiC5352TrbyMnDjSU_X88WyafuxNYd8sV18Om920Q0X_aVKh8rBYr9wlZmlEjIm_jX9VlyuvxY.webp?r=902"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdnSA8sNKP_WXO-cbjv2e_ZxJDRvWfmqrVCUxoQ9dmqhnk1zEydELLwBNI87_sGV4iT5wZgBq5LonVgBsc8IxRCuUSSPGKhAVX8.webp?r=bd1"
+          />
+        </div>
+        <div class="carouselCard">
+          <img
+            src="https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVWhOFOqe3HKU_3xaS7IuSXAQe3sDbC8kPgyslDL_73q3JaUEdrMDsRtMF7HQIBkLr6yIp8EkQDjF2A39clrUu46Cg1NMjnRtMhBWILLKHrqP5HYFx7r45ZMhS3gNp0tYAA1.jpg?r=4d9"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footerWrapper">
+        <div class="socialIcons">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-icon svg-icon-facebook-logo">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M13.9868 13.1621V21.9841H10.0418V13.1621H6.8418V9.51207H10.0468V6.73207C10.0468 3.56707 11.9318 1.82007 14.8148 1.82007C15.7616 1.83321 16.7061 1.91577 17.6408 2.06707V5.17307H16.0448C15.4952 5.10007 14.9422 5.28088 14.5419 5.66447C14.1415 6.04807 13.9373 6.59284 13.9868 7.14507V9.51207H17.4868L16.9278 13.1621H13.9868Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-icon svg-icon-instagram-logo">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M21.9302 16.1229C21.9586 17.6764 21.3791 19.1796 20.3152 20.3119C19.1853 21.3804 17.68 21.9606 16.1252 21.9269C14.4742 22.0209 9.52524 22.0209 7.87524 21.9269C6.32151 21.955 4.81816 21.3756 3.68524 20.3119C2.61778 19.1818 2.03769 17.6772 2.07024 16.1229C1.97724 14.4719 1.97724 9.52294 2.07024 7.87294C2.03979 6.3188 2.61957 4.8146 3.68524 3.68294C4.81792 2.61946 6.32187 2.04157 7.87524 2.07294C9.52624 1.97894 14.4752 1.97894 16.1252 2.07294C17.6791 2.04388 19.1828 2.62347 20.3152 3.68794C21.3827 4.81807 21.9628 6.32272 21.9302 7.87694C22.0232 9.52794 22.0232 14.4719 21.9302 16.1229ZM20.2002 11.9999C20.2002 10.5449 20.3202 7.42194 19.8002 6.10594C19.4575 5.23672 18.7695 4.54869 17.9002 4.20594C16.5882 3.68894 13.4612 3.80594 12.0062 3.80594C10.5512 3.80594 7.42824 3.68494 6.11224 4.20594C5.24322 4.54899 4.55529 5.23693 4.21224 6.10594C3.69524 7.41794 3.81224 10.5449 3.81224 11.9999C3.81224 13.4549 3.69124 16.5779 4.21224 17.8939C4.5556 18.7628 5.24343 19.4506 6.11224 19.7939C7.42424 20.3109 10.5522 20.1939 12.0062 20.1939C13.4602 20.1939 16.5842 20.3149 17.9002 19.7939C18.7693 19.4509 19.4572 18.763 19.8002 17.8939C20.3192 16.5819 20.2002 13.4549 20.2002 11.9999ZM17.1302 11.9999C17.1302 14.8311 14.8354 17.1264 12.0042 17.1269C9.17307 17.1275 6.87734 14.8331 6.87624 12.0019C6.87513 9.17077 9.16907 6.8746 12.0002 6.87293C13.361 6.87028 14.6668 7.40953 15.6292 8.37155C16.5916 9.33356 17.1314 10.6392 17.1292 11.9999H17.1302ZM15.3362 11.9999C15.3362 10.1596 13.8446 8.66749 12.0042 8.66694C10.1639 8.66639 8.67134 10.1576 8.67024 11.9979C8.66914 13.8383 10.1599 15.3313 12.0002 15.3329C13.8409 15.3318 15.333 13.8406 15.3352 11.9999H15.3362ZM17.3362 7.85895C16.6735 7.85895 16.1362 7.32168 16.1362 6.65894C16.1362 5.9962 16.6735 5.45894 17.3362 5.45894C17.999 5.45894 18.5363 5.9962 18.5363 6.65894C18.5381 6.97725 18.4127 7.28311 18.1879 7.50847C17.9631 7.73383 17.6576 7.86001 17.3392 7.85895H17.3362Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-icon svg-icon-twitter-logo">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M20.7679 8.20699C20.7912 11.5932 19.4564 14.8475 17.0619 17.242C14.6674 19.6365 11.4131 20.9713 8.02688 20.948C5.58911 20.9544 3.2014 20.2564 1.15088 18.938C1.50985 18.9771 1.87079 18.9955 2.23188 18.993C4.24756 18.9984 6.20627 18.3245 7.79188 17.08C5.87426 17.0472 4.18959 15.799 3.59988 13.974C3.8797 14.0187 4.16251 14.0421 4.44588 14.044C4.84342 14.0428 5.23922 13.9914 5.62388 13.891C3.53625 13.4666 2.03658 11.6303 2.03788 9.49999V9.44099C2.65823 9.78763 3.35178 9.98261 4.06188 10.01C2.08967 8.6933 1.48213 6.06953 2.67488 4.01999C4.9496 6.82015 8.30584 8.52335 11.9089 8.70599C11.8373 8.36899 11.8008 8.0255 11.7999 7.68099C11.8012 5.84293 12.9247 4.19202 14.634 3.51624C16.3433 2.84045 18.292 3.27679 19.5499 4.61699C20.552 4.4234 21.513 4.0573 22.3899 3.53499C22.0555 4.56892 21.3554 5.44537 20.4209 5.99999C21.3101 5.89964 22.1793 5.66707 22.9999 5.30999C22.3865 6.20227 21.6272 6.98488 20.7539 7.62499C20.7679 7.81999 20.7679 8.01399 20.7679 8.20699Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-icon svg-icon-youtube-logo">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M22.5401 6.67C22.2881 5.71873 21.5491 4.97331 20.6001 4.713C18.8801 4.25 12.0001 4.25 12.0001 4.25C12.0001 4.25 5.12009 4.25 3.40009 4.713C2.45106 4.97331 1.71211 5.71873 1.46009 6.67C1.14277 8.42869 0.988785 10.213 1.00009 12C0.988785 13.787 1.14277 15.5713 1.46009 17.33C1.71301 18.2825 2.45414 19.0282 3.40509 19.287C5.12009 19.75 12.0051 19.75 12.0051 19.75C12.0051 19.75 18.8851 19.75 20.6001 19.287C21.5491 19.0267 22.2881 18.2813 22.5401 17.33C22.8574 15.5713 23.0114 13.787 23.0001 12C23.0114 10.213 22.8574 8.42869 22.5401 6.67ZM9.75009 15.27V8.729L15.5001 12L9.75009 15.27Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </div>
+        <div class="members">
+          <ul>
+            <li>Audio Description</li>
+            <li>Investor Relations</li>
+            <li>Legal Notices</li>
+          </ul>
+          <ul>
+            <li>Audio Description</li>
+            <li>Investor Relations</li>
+            <li>Legal Notices</li>
+          </ul>
+          <ul>
+            <li>Audio Description</li>
+            <li>Investor Relations</li>
+            <li>Legal Notices</li>
+          </ul>
+          <ul>
+            <li>Audio Description</li>
+            <li>Investor Relations</li>
+            <li>Legal Notices</li>
+          </ul>
+        </div>
+        <button class="btn">Service Code</button>
+        <div class="copyright">© 1997-2022 Netflix, Inc. {68b4bc9a-f5a7-4923-90b9-ce5580a5f128}</div>
+      </div>
+    </div>
+  </body>
+</html>
